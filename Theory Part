@@ -1,0 +1,26 @@
+1. Short Answer Questions
+
+Q1: Explain how AI-driven code generation tools (e.g., GitHub Copilot) reduce development time. What are their limitations?
+
+AI-driven code generation tools like GitHub Copilot reduce development time by suggesting code snippets, completing functions, and automating boilerplate code based on natural language prompts and coding context. This accelerates coding, reduces repetitive tasks, and helps developers focus on logic rather than syntax. However, limitations include potential security risks, generation of syntactically correct but logically flawed code, lack of understanding of project-specific business rules, and overreliance that may hinder skill development. These tools also sometimes suggest outdated or inefficient code practices.
+
+Q2: Compare supervised and unsupervised learning in the context of automated bug detection.
+
+In automated bug detection, supervised learning relies on labeled datasets where examples of buggy and non-buggy code are pre-classified. This approach is highly accurate when ample labeled data is available, enabling precise detection of known error patterns. In contrast, unsupervised learning does not require labeled data and detects bugs by identifying anomalies or deviations from normal coding patterns. It is useful for discovering new or rare bugs but may produce more false positives since it lacks explicit error labels.
+
+Q3: Why is bias mitigation critical when using AI for user experience personalization?
+
+Bias mitigation is essential in AI-driven user experience personalization to ensure fairness, inclusivity, and trust. Without mitigation, AI systems may reinforce existing stereotypes or exclude certain user groups by tailoring experiences based on biased data. For instance, biased recommendations can marginalize users based on gender, race, or socioeconomic status. This not only affects user satisfaction and accessibility but also exposes organizations to ethical and legal risks. Mitigating bias ensures that personalized content is equitable, accurate, and reflective of diverse user needs.
+
+2. Case Study Analysis
+
+How does AIOps improve software deployment efficiency?
+
+- AIOps (Artificial Intelligence for IT Operations) improves software deployment efficiency by automating key DevOps processes, predicting and preventing issues, and optimizing resource usage. It leverages machine learning and big data to analyze vast streams of logs, metrics, and events in real time. This proactive and intelligent approach reduces manual intervention, shortens deployment cycles, enhances system reliability, and lowers operational costs.
+
+Two Examples:
+- AI-Powered CI/CD Optimization (e.g., CircleCI, Harness)
+AIOps tools predict build failures and optimize the sequence of test cases using historical data. For example, Harness uses AI to automatically roll back failed deployments and minimize downtime, while CircleCI uses AI to prioritize fast and reliable test executions, ensuring rapid feedback and efficient pipeline runs.
+
+- Automated Incident Detection and Resolution (e.g., Splunk, Datadog, New Relic)
+AIOps platforms like Splunk and Datadog analyze logs and performance metrics in real time to detect anomalies. They can trigger automated responses—such as scaling infrastructure or restarting failing services—without human input. This drastically reduces mean time to resolution (MTTR) and prevents user-facing issues during deployment.
