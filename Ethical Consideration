@@ -1,0 +1,33 @@
+Part 3: Ethical Reflection 
+1. Potential Biases in the Dataset
+- Even though the original breast cancer dataset is clinical, its adaptation for issue prioritization brings up risks of bias when used in workplace settings:
+
+- Underrepresented Teams: If certain departments generate fewer tickets, the model may learn biased patterns and mislabel their urgent issues as low-priority.
+
+- Labeling Bias: Labels mapped from unrelated diagnosis data may inherit unintended associations, skewing predictions.
+
+- Data Imbalance: More data labeled as “medium” or “low” may cause the model to favor these classes, underpredicting "high" priority issues.
+
+2. Addressing Bias with IBM AI Fairness 360
+IBM AI Fairness 360 (AIF360) is a toolkit designed to detect and mitigate bias in machine learning models. Here's how it can help:
+
+- Bias Detection:
+
+AIF360 can assess disparities in predictions across sensitive groups (e.g., teams, ticket categories).
+
+It provides fairness metrics like Disparate Impact, Statistical Parity Difference, and Equal Opportunity Difference.
+
+- Bias Mitigation Techniques:
+
+Pre-processing: Rebalance the dataset using techniques like reweighting or sampling.
+
+In-processing: Train models with fairness constraints.
+
+Post-processing: Adjust predictions after model training to align with fairness criteria.
+
+- Fairness Reporting:
+
+AIF360 provides visual dashboards and statistical summaries, helping stakeholders understand how fair or biased the model is.
+
+3. Conclusion
+While predictive analytics can optimize resource allocation, ethical deployment demands fairness, transparency, and accountability. By incorporating tools like IBM AIF360, developers can ensure their models support equitable decision-making and avoid reinforcing workplace disparities.
